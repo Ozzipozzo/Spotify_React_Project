@@ -1,0 +1,54 @@
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.search form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+
+#selectedOption {
+    padding: 10px;
+    border: 2px solid #1ED760;
+    background-color: #1F1F1F;
+    color: #1ED760;
+    border-radius: 23px 0 0 23px;
+}
+
+#selectedOption:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+
+input[type="text"] {
+    padding: 9px;
+    border: 2px solid #1ED760;
+    border-left: none;
+    border-right: none;
+    background-color: #1F1F1F;
+    color: #1ED760;
+}
+
+button {
+    padding: 9px;
+    border: 2px solid #1ED760;
+    background-color: #1F1F1F;
+    color: #1ED760;
+    border-radius: 0 23px 23px 0;    
+}
+
+button:active {
+    background-color: #6A6A6A;
+    color: white;
+}

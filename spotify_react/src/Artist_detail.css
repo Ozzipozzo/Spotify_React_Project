@@ -1,0 +1,22 @@
+.artist_album {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+.artistDetailAlbum{
+    margin: 5px;
+}
+.moreAbout {
+    width: 80%;
+    margin: auto;
+} 
+.test {
+    text-align: center;
+}
+
+.main-cover {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}

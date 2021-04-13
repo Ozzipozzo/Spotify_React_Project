@@ -1,0 +1,30 @@
+.album-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    flex-wrap: wrap;
+}
+
+.albumList {
+    width: 11%;
+    border-radius: 10px;
+    margin-right: 2.5em;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.album:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .8s;
+  }
+
+.album > img {
+    width: 234px;
+    height: 299px;
+    border-radius: 10px;
+}

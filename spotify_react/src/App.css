@@ -1,0 +1,26 @@
+.main-header {
+  display: flex;
+  background: black;
+  color: white;
+}
+
+.main-logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.main-nav {
+  width: 47%
+}
+
+.main-ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.logo-img {
+  width: 7em;
+}
